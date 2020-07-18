@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html>
+    
+</html>
+
+<body>
+<h1 class="h1" >Demo :Alert()</h1>
+
+<script>
+
+    "use strict"
+// alert("This is an alert box");
+// alert(100);
+// alert(true);
+
+
+// var userPreferences;
+// if(confirm("Do you want to save changes")==true)
+// {
+
+// userPreferences="Data Saved Successfully";
+// }
+// else{
+// userPreferences="Save Cancelled";
+
+// }
+// alert(userPreferences);
+
+// var tenture =prompt("Please enter preferred tenture in years","15");
+
+// if(tenture!=null)
+
+// {
+//     alert("you have entered "+tenture+"year");
+// }
+
+// var name="prasad";
+
+// alert(name[0]);
+// alert(name.length);
+
+// for(var i=0;i<name.length;i++)
+// {
+
+//     console.log(name[i]);
+// }
+
+// for(var i in name)
+// {
+
+//     console.log(name[i]);
+// }
+
+
+// console.log("This is an 'Single Quoted String'");
+// console.log('This is an "double quoted string"');
+
+// var str1=new String();
+// str1="Hello World";
+
+// var str2=new String("Hello World");
+
+// var str3="This is an \"test \"example";
+
+// console.log(str3);
+
+// console.log('Max value'+Number.MAX_VALUE);
+// console.log('Max value'+Number.MIN_VALUE);
+// console.log('Negative Infinity'+Number.NEGATIVE_INFINITY);
+// console.log('Negative Infinity'+Number.POSITIVE_INFINITY);
+// console.log('NAN' +Number.NaN);
+
+// var num=100;
+// console.log(num.toExponential(2));
+// console.log(num.toFixed(2));
+
+
+// var emptyObject ={};
+// var person={firstName:"prasad"};
+// console.log(num.toLocaleString());
+
+// console.log(num.toPrecision(4));
+// console.log(num.toString());
+
+// var number=new Number(100);
+
+// console.log(num.valueOf());
+
+// var emptyObject ={};
+// var person={firstName:"prasad"};
+
+// var message={
+
+//     showMessage:function(val){
+//         alert(val);
+//     }
+
+// }
+
+// var personData={
+
+//     firstName:"James",
+//     lastName:"Bond",
+//     age:15,
+//     getFullName:function(){
+
+//         return this.firstName+' '+ this.lastName;
+//     }
+// }
+
+// var personName=personData.firstName;
+// var personAge=personData.age;
+
+// personName=personData["firstName"];
+// personAge=personData["age"];
+// var personFullName=personData.getFullName();
+
+// var personInfo=new Object();
+
+// personInfo.firstName="Prasad";
+// personInfo.middleName="Santosh";
+// personInfo.lastName="Mestri";
+
+// personInfo.fullName=function(){
+// return personInfo.firstName+' '+personInfo.lastName;
+
+// }
+
+// if(personInfo.hasOwnProperty("address"))
+
+// {
+
+//     console.log(personInfo.address);
+// }
+// //pass by reference example
+
+// function changeFirstName(per)
+// {
+//     personInfo.firstName="PPrasad";
+// }
+
+// changeFirstName(personInfo)
+
+// console.log(personInfo.firstName);
+
+// var anotherPerson=personInfo;
+
+// anotherPerson.firstName="AnotherPrasad";
+// console.log(personInfo.firstName);
+
+// var nestedPerson={
+
+//     firstName:"James",
+//     lastName:"Bond",
+//     age:25,
+//     address:{
+//         id:1,
+//         country:"UK"
+//     }
+
+// };
+
+// console.log(nestedPerson.address.id);
+
+// var currentDate=Date();
+
+// console.log(currentDate);
+// var todaysDate=new Date();
+
+// console.log(todaysDate);
+
+// var date=new Date();
+
+
+// var d = date.getDate();
+// var m = date.getMonth() + 1;
+// var y = date.getFullYear();
+// console.log(date.getDay());
+// console.log(date.getUTCDate());
+
+// console.log(date.getUTCMonth()+1);
+// console.log(date.getFullYear());
+
+// var dateString = (d <= 9 ? '0' + d : d) + '-' + (m <= 9 ? '0' + m : m) + '-' + y;
+// console.log(dateString);
+
+// var parseDate=Date.parse('5/2/2015');
+
+// var parsedDate=new Date(Date.parse('25/2/2015'));
+// console.log(parsedDate);
+
+// //compare two objects
+
+// var date1=new Date('4-1-2015');
+// var date2=new Date('4-2-2015');
+
+// if(date1>date2)
+// {
+
+//     console.log('date 1 is greater than date 2')
+// }
+// else{
+
+//     console.log('date2 is greater than date1');
+// }
+
+
+// //array literal
+// var stringArray=['One','two','three'];
+// var numberArray=[1,2,3,4,5];
+// var decimalArray=[1.1,1.2,1.3,1.4,1.5];
+// var booleanArray=[true,false,false,true];
+// var mixedArray=[1,'two',3,'four'];
+
+// //array constructor
+
+
+// var stringArray1=new Array();
+// stringArray1[0]="one";
+// stringArray1[1]="two";
+// stringArray1[2]="three";
+// stringArray1[3]="four";
+
+// var numericArray=new Array(3);
+// numericArray[0]=1;
+// numericArray[1]=2;
+// numericArray[2]=3;
+
+// var mixedArray=new Array(1,'two',3,'four');
+
+// var firstElement=stringArray1[0];
+
+// for(var i=0;i<mixedArray.length;i++)
+// {
+
+//     console.log(mixedArray[i]);
+// }
+
+// function ShowMessage()
+// {
+
+//     alert('This is an example of function');
+
+// }
+
+// ShowMessage();
+
+// function ShowMessage(num1,num2)
+// {
+//     alert('The Addition of two no='+num1+num2);
+
+
+// }
+
+// //using argument in function to get parameter values
+
+// function ShowData(num1,num2)
+// {
+
+//     console.log('Hello'+arguments[0]+' '+arguments[1]);
+// }
+// ShowMessage(1,2);
+// ShowData(1,2);
+
+// function ReturnValues(no1,no2)
+// {
+
+//     return no1+no2;
+// }
+
+// console.log(ReturnValues(10,20));
+
+//function expression
+var add=function sum(val1,val2)
+{
+    return val1+val2;
+}
+
+var result1=add(10,20);
+console.log(result1);
+
+//this willl not work
+// var result2=sum(1,2);
+var result2;
+
+console.log(result2);
+
+
+var anonymousFunction=function(val1,val2)
+{
+
+    return val1+val2;
+}
+
+console.log( anonymousFunction(10,20));
+
+eval('alert("this is an eval block")');
+
+var result;
+
+function Sum(val1,val2)
+{
+
+
+    return val1+val2;
+}
+eval('result=Sum(5,5)');
+console.log(result);
+
+//converting string to json object
+
+var str='({ "firstName":"Bill","lastName":"Gates"})';
+var obj=eval(str);
+console.log(obj.firstName);
+
+
+//error handling
+
+try
+{
+
+var result=Sum(10,20);
+throw {
+    number:101,
+    message:"Error Occured"
+}
+}
+catch(ex)
+{
+
+    console.log(ex.message);
+    console.log(ex.number);
+
+}
+
+</script>
+
+</body>
